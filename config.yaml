@@ -1,0 +1,17 @@
+modelling:
+  window_size: 20
+  dft_shape: 30
+  num_time_invariant_features: 2
+  num_instantaneous_features: 1
+
+  learning_rate: 0.0003
+  weight_decay: 0.0
+
+training:
+  batch_size: 64
+  device: "cuda"
+
+  num_epochs: 100
+  lambda_td: 1
+  lambda_fd: 1
+  k: 3
